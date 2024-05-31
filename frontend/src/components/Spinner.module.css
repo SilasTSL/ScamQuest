@@ -3,17 +3,16 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vw;
-    top: -50%;
-    width: 100vh;
+    height: 100vh;
+    width: 100vw;
     position: absolute;
-    background-color: white;
+    background-color: transparent;
 }
 
 .loader {
     width: 40px;
     aspect-ratio: 1;
-    color: #f03355;
+    color: blue;
     position: relative;
     background:
         conic-gradient(from 134deg at top   ,currentColor 92deg,#0000 0) top,

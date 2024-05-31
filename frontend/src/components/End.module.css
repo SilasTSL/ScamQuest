@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    margin-top: 0;
+}
+
+.score {
+    font-size: calc(var(--font-size-large) * 3);
+    color: orange;
+}
+
+.button {
+    font-size: var(--font-size-medium);
+    padding: calc(0.5rem + 0.5vh) calc(1.3rem + 1.3vw);
+    border-radius: 10px;
+    background-color: #ffaa0090;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    color: rgb(54, 54, 54);
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background-color: #f59221b1;
+}
+
+.button:active {
+    transform: scale(0.95);
+    transition-duration: 0.1s;
+}

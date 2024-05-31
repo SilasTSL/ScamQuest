@@ -5,19 +5,19 @@
     height: 100%;
     width: 20%;
     padding: calc(1vh + 1rem) calc(0.5vw + 0.5rem);
-    background-color: #ff7e18;
+    background-color: var(--icon-color-blue);
 }
 
 .logoContainer {
     width: fit-content;
+    align-content: center;
 }
 
-.logoText {
-    font-family: var(--font-family-main);
-    font-size: var(--font-size-logo);
-    margin-bottom: calc(2vh + 2rem);
-    margin-left: calc(0.5vw + 0.5rem);
-    width: fit-content;
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .navLinkContainer {
@@ -55,6 +55,6 @@
     justify-content: center;
 }
 
-.answerStreak {
+.streak {
     font-size: var(--font-size-logo);
 }

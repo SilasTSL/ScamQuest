@@ -1,17 +1,16 @@
 import "./globals.css";
-import Nav from "./nav";
 
 export const metadata = {
-  title: "Frontend",
-  description: "This is the frontend",
+  title: "ScamQuest",
+  description: "This is the frontend for ScamQuest",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body>
-        <Nav />
         {children}
+        <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
       </body>
     </html>
   );
